@@ -9,7 +9,7 @@ export default function Layout({ children }: LayoutProps) {
 
   return (
     <div>
-      {/* Your layout JSX here */}
+      {/* Your layout and sidebar/menu logic here */}
       {children}
     </div>
   );
