@@ -3,7 +3,7 @@
 import { ReactNode, useState } from 'react';
 
 type LayoutProps = {
-  children: ReactNode;
+  children: React.ReactNode;
 };
 
 export default function Layout({ children }: LayoutProps) {
