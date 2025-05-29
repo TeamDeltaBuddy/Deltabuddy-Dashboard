@@ -9,7 +9,7 @@ export default function Layout({ children }: LayoutProps) {
 
   return (
     <>
-      {/* Your existing layout JSX here */}
+      {/* Your layout JSX here */}
       {children}
     </>
   );
