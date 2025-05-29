@@ -1,9 +1,7 @@
-// deltabuddy-dashboard/components/Layout.tsx
-
-import { ReactNode, useState } from 'react';
+import React, { useState, ReactNode } from 'react';
 
 type LayoutProps = {
-  children: React.ReactNode;
+  children: ReactNode;
 };
 
 export default function Layout({ children }: LayoutProps) {
@@ -11,7 +9,7 @@ export default function Layout({ children }: LayoutProps) {
 
   return (
     <div>
-      {/* Your layout HTML here */}
+      {/* Your layout logic here */}
       {children}
     </div>
   );
